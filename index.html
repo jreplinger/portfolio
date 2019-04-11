@@ -3,73 +3,137 @@
 <head>
 <title>jack replinger</title>
 <link href="style.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+
 <div id="main">
-    <nav>
-        <ul>
-            <li class="navleft"><a href="#">jack replinger</a></li>
-            <li class="navright"><a href="#">contact</a></li>
-            <li class="navright"><a href="#">skills</a></li>
-            <li class="navright"><a href="#">projects</a></li>
-            <li class="navright"><a href="#">about</a></li>
-        </ul>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                     
+                </button>
+                <a class="navbar-brand" href="#">jack replinger</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">home</a></li>
+                    <li><a href="contact.html">contact</a>
+                </ul>
+            </div>
+        </div>
     </nav>
-</div>
-<div id="bigpicture">
-    <img id="trees" src="img\bcn.jpg">
-</div>
-<div>
-    <h1>about</h1>
-    <div id="aboutwrapper">
-        <div class="projectbox" id="ab1">
-            <img class="pbimage" src="img\chalkbeat2.jpg">
+
+<div id="fcc">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="tb" id="box11">
+                <h1>teacher</h1>
+                <p> I have taught for the last 12 years in Memphis City / Shelby County schools. </p>
+            </div>
         </div>
-        <div class="projectbox" id="ab2">
-            My name is Jack Replinger and I am a teacher and entrepreneur.  I came to Memphis in 2007 with Teacher For America and have taught for 12 years.  I currently Teach and currently teach at The Soulsville Charter School.  I am the founder, co-developer and UX designer for Positive Physics.
-            <ul>
-                <li>2015 Charter School Teacher of the Year</li>
-                <li>2018 TFA Alumni Leadership Award</li>
-                <li>Featured in Chalkbeat and Daily Memphian Article</li>
-            </ul>
+        <div class="col-sm-3">
+            <div class="tb" id="box12">
+                <h1>entrepreneur</h1>
+                <p>I have launched a successful project and will graduate from the Co.Starters program at Epicenter Memphis in late April 2019. </p>
+            </div>
         </div>
-</div>
-<div>
-    <h1>projects</h1>
-    <div id="projectwrapper">
-        <div class="projectbox" id="pb1">
-            <img class="pbimage" src="img\pphome.jpg">
-            I designed and co-developed Positive Physics, the world's most positive way to teach and learn physics.  Specifically designed for underserved students, over 1,100 teachers from 60 countries have signed up for the site and created accounts for over 11,000 students.  
+        <div class="col-sm-3">
+            <div class="tb" id="box13">
+                <h1>developer</h1>
+                <p>I have honed my skills through self-teaching and will graduate from the Web Development course at Tech901 in late April 2019. I have experience with html, CSS and javaScript.</p>
+            </div>
         </div>
-        <div class="projectbox" id="pb2">
-            <img class="pbimage" src="img\pphome.jpg">
-            Other project 
-        </div>
-        <div class="projectbox" id="pb3">
-            <img class="pbimage" src="img\pphome.jpg">
-            Other Project
+        <div class="col-sm-3">
+            <div class="tb" id="box14">
+                <h1>adventurer</h1>
+                <p>Travel. Sports. New Experiences. I'm in. </p>
+            </div>
         </div>
     </div>
 
-</div>
-<div>
-    <h1>skills</h1>
-    <ul>
-        <li>skills</li>
-        <li>skills</li>
-        <li>skills</li>
-        <li>skills</li>
-        <li>skills</li>
-        <li>skills</li>
-    </ul>
-</div>
-<div>
-    <h1>contact</h1>
-    <p>
-    <input>name</input><br>
-    <input>name</input><br>
-    <input>name</input>
-    </p>
-</div>
-</body>
-</html>
+    <!--new row-->
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="tb" id="box21"> <h1>projects:</h2></div>
+        </div>
+        <div class="col-sm-3">
+            <div class="tb bricks" id="pp">
+                <h2> positive physics</h2>
+                <img class="pbimage" src="img\pphome.jpg">
+                <p>I designed and co-developed Positive Physics, a learning platform reaching over 1200 schools from 60 countries around the world.</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="tb bricks" id="pp">
+                <h2> tech901 projects</h2>
+                <p>I am currently working on a classroom math game, modeled the classic baseball game "knob up" to see who gets to pick first.</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="tb bricks" id="pp">
+                <h2> in progress</h2>
+                <p>I am currently working on two classroom games:
+                <br><br>
+                <a href="#">Number Up</a> is a math game based on the baseball tradition "knob up."
+                <br><br>
+                <a href="#">Wolf Game</a> is a digital version of a clasroom game I created.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--new row-->
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="tb wall" id="box31"> <h1>recognition:</h2></div>
+        </div>
+        <div class="col-sm-3">
+            <div class="tb wall" id="pp">
+                <h2> TFA alumni award</h2>
+                <img class="pbimage" src="img\brh2.jpg">
+                <p>In 2018, I recieved the Barbara Rosser Hyde Alumni Leadership Award, which included a $5000 prize.</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="tb wall" id="pp">
+                <h2> chalkbeat article</h2>
+                <img class="pbimage" src="img\chalkbeat.jpg">
+                <p>In 2018, my work was featured in Chalkbeat, an international education publication, as the Daily Memphian.</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="tb wall" id="pp">
+                <h2> other recognition</h2>
+                <p>
+                    <ul>
+                        <li>2013 WREG Educator of the Week</li>
+                        <li>2015 TN Charter School Teacher of The Year</li>
+                        <li>2018 "We Are Memphis" Featured Memphian</li>
+                        <li>2018 WMCTV News Story</li>
+                        <li>2019 Rice Magazine Article (May edition)</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>  <!--closing fcc-->
+
+<nav class="navbar navbar-inverse footnote">
+    <div class="container-fluid">
+        &copy; jack replinger.  all rights reserved.
+    </div>
+</nav>
+
+
+</div>  <!--closing main-->
